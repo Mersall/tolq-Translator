@@ -4,5 +4,6 @@
 }
 .textAreaFiled {
   resize: none;
-  width: 30%;
+  width: 45%;
+  height: 40px;
 }

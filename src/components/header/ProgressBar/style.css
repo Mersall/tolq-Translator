@@ -18,12 +18,3 @@
   align-items: flex-start;
   margin-left: 60px;
 }
-
-/* For Chrome or Safari */
-progress::-webkit-progress-bar {
-  background-color: #eeeeee;
-}
-
-progress::-webkit-progress-value {
-  background-color: #039603 !important;
-}
