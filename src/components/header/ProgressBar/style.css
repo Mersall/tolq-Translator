@@ -1,0 +1,29 @@
+.progressBar {
+  padding: 0px 10px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+.progressBar_labe {
+  position: absolute;
+  top: 74px;
+  margin-left: 95px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ProgressBar_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #039603 !important;
+}

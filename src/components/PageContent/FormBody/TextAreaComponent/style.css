@@ -1,0 +1,8 @@
+.text_areaLabel {
+  display: block;
+  margin-bottom: 10px;
+}
+.textAreaFiled {
+  resize: none;
+  width: 30%;
+}

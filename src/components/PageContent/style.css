@@ -1,0 +1,36 @@
+.page_container {
+  display: flex;
+}
+
+.FormBoyd_container {
+  flex-basis: 70%;
+  padding: 0px 10px;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.CommentSection_container {
+  flex-basis: 30%;
+  padding: 0px 20px;
+}
+
+.FormBoyd_container::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.FormBoyd_container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+.FormBoyd_container::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.FormBoyd_container::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
